@@ -72,10 +72,10 @@ class PlaceOrder extends Component{
                 <div className="container">
                     <div className="panel panel-primary">
                         <div className="panel-heading">
-                            Employee
+                          Orders Payment
                         </div>
                         <div className="panel-body">
-                            <form action="https://rbpaynow.herokuapp.com/paynow" method="POST">
+                            <form action="https://payxomatonow.herokuapp.com/paynow" method="POST">
                                 <div className="row">
                                     <input type="hidden" name="cost" value={this.state.cost}/>
                                     <input type="hidden" name="id" value={this.state.id}/>

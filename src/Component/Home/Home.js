@@ -1,6 +1,7 @@
 import React from 'react';
 import QuickSearch from './QuickSearch';
 import Search from './Search';
+import TopCollections from './Topcollection';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <React.Fragment>
             <Search/>
             <QuickSearch/>
+            <TopCollections/>
         </React.Fragment>
         
     )

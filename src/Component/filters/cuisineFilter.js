@@ -12,7 +12,7 @@ class CuisineFilter extends Component{
         if(cuisineId === ""){
             cuisineUrl = `${url}/${mealId}`
         }else{
-            cuisineUrl = `${url}/${mealId}?cuisine=${cuisineId}`
+            cuisineUrl = `${url}/${mealId}?cuisineId=${cuisineId}`
         }
         axios.get(cuisineUrl)
         .then((res) => {this.props.restPerCuisine(res.data)})
